@@ -1,0 +1,13 @@
+.mb-3 {
+    margin:auto;
+    border: 10px;  
+}
+.form-control {
+    width: 300px;
+    margin:auto;
+    border: 20px; 
+}
+.container mt-5{
+    text-align: center;
+
+}
