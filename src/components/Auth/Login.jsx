@@ -39,14 +39,8 @@ function Login(){
 
     return (
         <>
-            <button 
-                type="button" 
-                className="btn btn-primary mx-3"
-                onClick={() => navigate('/home')}
-            >
-                Go to Home
-            </button>
-            <div className="container mt-5">
+            
+            <div className="container mr-5 mt-5 mb-7">
                 <h2>Login</h2>
                 <form onSubmit={handleSubmit}>
                     <div className="mb-3">
@@ -77,6 +71,17 @@ function Login(){
                     <button 
                         type="button" 
                         className="btn btn-primary mx-3"
+                        onClick={() => navigate('/')}
+                    >
+                        Go to Home
+                    </button>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <h6>Don't have an account? Register Now!</h6>
+                    <button 
+                        type="button" 
+                        className="btn btn-primary ml-2"
                         onClick={() => navigate('/register')}
                     >
                         Register

@@ -1,19 +1,21 @@
+*{
+    background-color: beige;
+}
 .mb-3 {
     margin:auto;
     border: 10px;  
 }
 .form-control {
-    width: 300px;
+    width: auto;
     margin:auto;
     border: 20px; 
 }
 .container mt-5{
     text-align: center;
-
 }
 .btn btn-primary{
     margin:auto;
     border: 10px; 
-    background-color: blue;
+    background-color: rgb(68, 177, 249);
          
 }

@@ -4,9 +4,13 @@ import './index.css'
 import Login from "./components/Auth/Login";
 import Register from './components/Auth/Register.jsx';
 import Home from './components/customer/Home.jsx';
-import {createBrowserRouter , RouterProvider,useNavigate} from 'react-router-dom';
+import {createBrowserRouter ,Routes,Route, BrowserRouter,RouterProvider,useNavigate} from 'react-router-dom';
 
 const router = createBrowserRouter([
+  {
+    path: "/home",
+    element: <Home/>
+  },
   {
     path: "/",
     element: <Login/>
@@ -14,15 +18,18 @@ const router = createBrowserRouter([
   {
     path: "/register",
     element: <Register/>
-  },
-  {
-    path: "/home",
-    element: <Home/>
   }
 ]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+     <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/register" element={<Register />} />
+
+    </Routes>
+  </BrowserRouter>
   </StrictMode>,
 )

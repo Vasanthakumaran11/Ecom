@@ -1,0 +1,14 @@
+{
+  "products": [
+    { "id": 1, "name": "Organic Tomatoes", "price": 3.99, "category": "vegetables", "image": "🍅" },
+    { "id": 2, "name": "Fresh Apples", "price": 2.49, "category": "fruits", "image": "🍎" },
+    { "id": 3, "name": "Brown Rice", "price": 4.99, "category": "grains", "image": "🌾" },
+    { "id": 4, "name": "Farm Eggs", "price": 5.49, "category": "dairy", "image": "🥚" },
+    { "id": 5, "name": "Organic Milk", "price": 6.99, "category": "dairy", "image": "🥛" },
+    { "id": 6, "name": "Potatoes", "price": 2.99, "category": "vegetables", "image": "🥔" },
+    { "id": 7, "name": "Bananas", "price": 1.49, "category": "fruits", "image": "🍌" },
+    { "id": 8, "name": "Wheat Flour", "price": 3.49, "category": "grains", "image": "🌾" },
+    { "id": 9, "name": "Cheddar Cheese", "price": 7.99, "category": "dairy", "image": "🧀" },
+    { "id": 10, "name": "Carrots", "price": 2.79, "category": "vegetables", "image": "🥕" }
+  ]
+}
