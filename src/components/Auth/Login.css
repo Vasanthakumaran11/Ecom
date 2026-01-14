@@ -11,3 +11,9 @@
     text-align: center;
 
 }
+.btn btn-primary{
+    margin:auto;
+    border: 10px; 
+    background-color: blue;
+         
+}
