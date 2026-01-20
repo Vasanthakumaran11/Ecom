@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Login from '../Auth/Login.jsx';
 import { useNavigate } from 'react-router-dom';
 import './App.css';
+import './Cart.jsx' ;
 
 const Home = () => {
   const navigate = useNavigate();
@@ -56,7 +57,7 @@ const Home = () => {
         <div>
           <button className="btn btn-primary mx-2" onClick={()=>{navigate('/login')}}>Login</button>
         </div>
-        <div className="cart-icon">
+        <div onClick={() => navigate('/cart')} className="cart-icon">
           <span>🛒 {cartCount}</span>
         </div>
       </header>
