@@ -41,25 +41,18 @@ const Home = () => {
   return (
     <div className="app">
       {/* Header */}
-      <header className="header">
-        <div className="logo">
-          <h1>🌿 AgriFresh Market</h1>
-          <p>Fresh from farm to table</p>
-        </div>
-        <nav className="nav">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#products">Products</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+      <header className="bg-black p-1 justify-between flex-row d-flex">
         <div>
-          <button className="btn btn-primary mx-2" onClick={()=>{navigate('/login')}}>Login</button>
+          <h1 className="text-success">🌿 AgriFresh Market</h1>
+          <p className='text-white'>Fresh from farm to table</p>
         </div>
-        <div onClick={() => navigate('/cart')} className="cart-icon">
-          <span>🛒 {cartCount}</span>
-        </div>
+        <nav className="flex-justify-between mx-5 text-white space-x-4 p-2">
+          <a href="#home">Home</a>
+          <a href="#products">Products</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <button onClick={()=>{navigate('/login')}}>Login</button>
+         </nav>
       </header>
 
       {/* Hero Section */}

@@ -4,6 +4,7 @@ import './index.css'
 import Login from "./components/Auth/Login";
 import Register from './components/Auth/Register.jsx';
 import Home from './components/customer/Home.jsx';
+import Cart from './components/customer/Cart.jsx';
 import {createBrowserRouter ,Routes,Route, BrowserRouter,RouterProvider,useNavigate} from 'react-router-dom';
 
 const router = createBrowserRouter([
